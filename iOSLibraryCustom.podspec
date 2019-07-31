@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'iOSLibraryCustom'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of iOSLibraryCustom.'
+  s.summary          = 'A short description of iOSLibrary.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+fkd shifu shf iushfui sh fuish sd fds sfdsf sdfs A short A short description of iOSLibraryCustom dgfd gfdgdf gd gd gd gdgdfdescription of iOSLibraryCustom dgfd gfdgdf gd gd gd gdgdf sidered adding a failure fore a default description. However, you doe see see specs with very minimal changes to the default text (something added at the top, fore example)
                        DESC
 
   s.homepage         = 'https://github.com/luisgouvea/iOSLibraryCustom'
