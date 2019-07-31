@@ -12,6 +12,7 @@
 		4A5CDCB6FE72DBE655D486EF2BA28305 /* Pods-iOSLibraryCustom_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0028EE9E1A00504875D39EE7E0362FC5 /* Pods-iOSLibraryCustom_Tests-dummy.m */; };
 		722B1459E02ABE8167A1D475D2DBE41F /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF748593961E3DFC416CF4C7572291C5 /* ReplaceMe.swift */; };
 		7575F8F922F225980002EA34 /* FunctionsUtilKyk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7575F8F822F225980002EA34 /* FunctionsUtilKyk.swift */; };
+		7575F91322F23CC80002EA34 /* AlgoCoisa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7575F91222F23CC80002EA34 /* AlgoCoisa.swift */; };
 		AB162B246880A938C8C5C5CCAEF5D5C5 /* iOSLibraryCustom-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25FF81B0E2A71B1E37B4090E639D08D1 /* iOSLibraryCustom-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DA538D8B356A2F3644A62B99D076F8B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		DEF9A5938BD946ED8846CF1D2DBEE773 /* Pods-iOSLibraryCustom_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3746BC66F6DF02F28685D7B03B1349EE /* Pods-iOSLibraryCustom_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -42,6 +43,7 @@
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5BF4F8473D5DF3A16CFC62CC01CA89DD /* Pods-iOSLibraryCustom_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOSLibraryCustom_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		7575F8F822F225980002EA34 /* FunctionsUtilKyk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FunctionsUtilKyk.swift; path = iOSLibraryCustom/Classes/FunctionsUtilKyk.swift; sourceTree = "<group>"; };
+		7575F91222F23CC80002EA34 /* AlgoCoisa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoCoisa.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95828D02285FC8BD0646A8481E50C788 /* Pods_iOSLibraryCustom_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSLibraryCustom_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F68D3EFA4FD539332A4B20AD8C9B882 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -95,6 +97,15 @@
 				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		7575F91122F23C9E0002EA34 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				7575F91222F23CC80002EA34 /* AlgoCoisa.swift */,
+			);
+			name = "New Group";
+			path = iOSLibraryCustom/Classes;
 			sourceTree = "<group>";
 		};
 		7AFC339713CBCA9B1D8CF67B807377A2 /* Targets Support Files */ = {
@@ -172,6 +183,7 @@
 		F7487DAC5EFD5D187E5F4E5AD4B01F12 /* iOSLibraryCustom */ = {
 			isa = PBXGroup;
 			children = (
+				7575F91122F23C9E0002EA34 /* New Group */,
 				EF748593961E3DFC416CF4C7572291C5 /* ReplaceMe.swift */,
 				7575F8F822F225980002EA34 /* FunctionsUtilKyk.swift */,
 				AC5FE97E55CEB761DB29ABFFAB1CB109 /* Pod */,
@@ -272,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				489EC32F7802E1181304B0A742DCB1ED /* iOSLibraryCustom-dummy.m in Sources */,
+				7575F91322F23CC80002EA34 /* AlgoCoisa.swift in Sources */,
 				722B1459E02ABE8167A1D475D2DBE41F /* ReplaceMe.swift in Sources */,
 				7575F8F922F225980002EA34 /* FunctionsUtilKyk.swift in Sources */,
 			);
