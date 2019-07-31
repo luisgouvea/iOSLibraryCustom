@@ -7,7 +7,7 @@
 
 import UIKit
 
-public class FunctionsUtil: NSObject {
+public class TestUtil: NSObject {
     
     static func appendStringCustom(_ text : String) -> String {
         return "\(text) algumacoisa"
