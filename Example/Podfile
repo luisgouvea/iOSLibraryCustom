@@ -1,0 +1,6 @@
+use_frameworks!
+target 'iOSLibraryCustom_Tests' do
+  pod 'iOSLibraryCustom', :path => '../'
+  
+  
+end
