@@ -1,0 +1,16 @@
+PODS:
+  - iOSLibraryCustom (0.1.0)
+
+DEPENDENCIES:
+  - iOSLibraryCustom (from `../`)
+
+EXTERNAL SOURCES:
+  iOSLibraryCustom:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  iOSLibraryCustom: 2f8ff489124183ab274536d621e4a6eaa6a9e19f
+
+PODFILE CHECKSUM: c24560f68e298c16053b291f2bdd3da6da857a21
+
+COCOAPODS: 1.5.2

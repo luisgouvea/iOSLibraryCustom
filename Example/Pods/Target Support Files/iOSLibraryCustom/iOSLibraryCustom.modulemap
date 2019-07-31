@@ -1,0 +1,6 @@
+framework module iOSLibraryCustom {
+  umbrella header "iOSLibraryCustom-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "iOSLibraryCustom",
+  "version": "0.1.0",
+  "summary": "A short description of iOSLibraryCustom.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/luisgouvea/iOSLibraryCustom",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "luisgouvea": "luiseduardo.gouvea@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/luisgouvea/iOSLibraryCustom.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "iOSLibraryCustom/Classes/**/*"
+}
