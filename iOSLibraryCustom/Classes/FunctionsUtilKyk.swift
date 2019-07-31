@@ -8,7 +8,7 @@
 import UIKit
 
 public class FunctionsUtilKyk: NSObject {
-    static func appendStringCustom(_ text : String) -> String {
+    static public func appendStringCustom(_ text : String) -> String {
         return "\(text) algumacoisa"
     }
 }
